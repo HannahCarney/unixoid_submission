@@ -1,0 +1,19 @@
+........F........
+
+Failures:
+
+  1) Unixoid test 8b. should have the count of env vars in my/public/files/t-vars.count
+     Failure/Error: expect(File.read('my/public/files/t-vars.count')).to match(/^Overall count:\s+\d+\s*$/i)
+       expected "Overall there are        6 env vars\n" to match /^Overall count:\s+\d+\s*$/i
+       Diff:
+       @@ -1,2 +1,2 @@
+       -/^Overall count:\s+\d+\s*$/i
+       +Overall there are        6 env vars
+     # ./unixoid_spec.rb:41:in `block (2 levels) in <top (required)>'
+
+Finished in 0.00797 seconds (files took 0.11921 seconds to load)
+17 examples, 1 failure
+
+Failed examples:
+
+rspec ./unixoid_spec.rb:40 # Unixoid test 8b. should have the count of env vars in my/public/files/t-vars.count
