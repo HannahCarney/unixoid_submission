@@ -11,7 +11,7 @@ Failures:
        +Overall there are        6 env vars
      # ./unixoid_spec.rb:41:in `block (2 levels) in <top (required)>'
 
-Finished in 0.00797 seconds (files took 0.11921 seconds to load)
+Finished in 0.00368 seconds (files took 0.08431 seconds to load)
 17 examples, 1 failure
 
 Failed examples:
