@@ -12,13 +12,16 @@ describe Board do
  #  	expect(board.cells).to eq true
 	# end
 
-  it "should contain a cell when initialized" do
-    expect(board.contents).to eq (:cell)
-	end
+ #  it "should contain cells when initialized" do
+ #    expect(board.contents).to eq (:cell)
+	# end
 
-  it "should contain 10 cells when initialized" do
-    
-    expect(board.number).to eq (:number)
+  it "should have 10 elements when initialized" do
+    expect(board.number_count).to eq(10)
+  end
+
+  it "should include 10 cells" do
+    expect(board.contents[0].class).to eq Cell
   end
 
 

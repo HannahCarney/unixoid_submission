@@ -1,23 +1,24 @@
+require_relative 'cell'
+
 class Board
 
   def initialize 
-    @contents = :cell
-    @number = :number
+    @contents = Array.new(10){Cell.new}
   end
 
   def contents
     @contents
   end
 
-  def number
-    @number = Array.new(10){Cell.new}
+  def number_count
+    contents.count
   end
 
 
+  # = 
   # def to_contain cell
   # 	@cell = cell
   # end
-
 
 
   
