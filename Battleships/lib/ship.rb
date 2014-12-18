@@ -10,25 +10,25 @@ class Ship
 
   attr_reader :size
 
-  def self.battleship size
-  	size == 4
-  end
+  # def self.battleship size
+  # 	size == 4
+  # end
 
-  def self.destroyer size
-  	size == 3
-  end
+  # def self.destroyer size
+  # 	size == 3
+  # end
 
-  def self.submarine size
-  	size == 3
-  end
+  # def self.submarine size
+  # 	size == 3
+  # end
 
-  def self.aircraft_carrier size
-  	size == 5
-  end
+  # def self.aircraft_carrier size
+  # 	size == 5
+  # end
 
-  def self.patrol_boat size
-  	size == 2
-  end
+  # def self.patrol_boat size
+  # 	size == 2
+  # end
 
   def sunk!
   	@sunk = true

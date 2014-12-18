@@ -1,11 +1,12 @@
 require 'board'
-# require 'ship'
+require 'ship'
 require 'cell'
 
 describe Board do
   
   let(:board) { Board.new }
   let(:cell) { Cell.new }
+  let(:ship) { Ship.new }
   # let(:ship) { double :ship }
 
 	# it "should have cells" do
@@ -20,11 +21,25 @@ describe Board do
     expect(board.number_count).to eq(10)
   end
 
-  it "should include 10 cells" do
+  it "should include cells when initialized" do
     expect(board.contents[0].class).to eq Cell
   end
 
+  # it "should have cells on a grid with 10 columns from 1 - 10"
+  #   expect(board.contents)
+  # end 
 
+  # it "should have a grid with 10 rows from A to J"
+
+
+
+
+
+
+  # it "should be able to have ships in cells" do
+  #   cell.place! ship
+  #   expect(cell.contents).to eq ship
+  # end
 
 
 

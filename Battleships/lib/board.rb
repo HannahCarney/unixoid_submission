@@ -15,12 +15,16 @@ class Board
   end
 
 
+
+  
+
   # = 
   # def to_contain cell
   # 	@cell = cell
   # end
 
-
+  
+  
   
 
   # def cells(size)

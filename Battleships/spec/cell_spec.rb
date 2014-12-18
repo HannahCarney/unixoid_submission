@@ -3,7 +3,7 @@ require 'cell'
 describe Cell do
 
   let(:cell) {Cell.new}
-  let(:ship) { double :ship }
+  let(:ship) {Ship.new}
 
   it 'should be filled with water when initialized' do
     expect(cell.contents).to eq :water

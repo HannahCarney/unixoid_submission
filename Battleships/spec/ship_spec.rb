@@ -26,27 +26,27 @@ describe Ship do
   # 	expect(ship.size).to eq(true)
   # end
 
-  context "Type of Ship" do
+#   context "Type of Ship" do
 
-	  it "can create a battleship" do
-	    expect(Ship.battleship(4)).to eq(true)
-	  end
+# 	  it "can create a battleship" do
+# 	    expect(Ship.battleship(4)).to eq(true)
+# 	  end
 
-	  it "can create a destroyer" do
-	  	expect(Ship.destroyer(3)).to eq(true)
-	  end
+# 	  it "can create a destroyer" do
+# 	  	expect(Ship.destroyer(3)).to eq(true)
+# 	  end
 
-	  it "can create a submarine" do
-	  	expect(Ship.submarine(3)).to eq(true)
-	  end
+# 	  it "can create a submarine" do
+# 	  	expect(Ship.submarine(3)).to eq(true)
+# 	  end
 
-	  it "can create a aircraft carrier" do
-	  	expect(Ship.aircraft_carrier(5)).to eq(true)
-	  end
+# 	  it "can create a aircraft carrier" do
+# 	  	expect(Ship.aircraft_carrier(5)).to eq(true)
+# 	  end
 
-	  it "can create a patrol boat" do
-	  	expect(Ship.patrol_boat(2)).to eq(true)
-	  end
+# 	  it "can create a patrol boat" do
+# 	  	expect(Ship.patrol_boat(2)).to eq(true)
+# 	  end
 
-	end
+	# end
 end
